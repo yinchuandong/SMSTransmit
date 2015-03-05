@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.classsignin.MainActivity" >
+
+    <item 
+        android:id="@+id/action_overflow"
+        android:title="分享"
+        android:icon="@drawable/drop_select"
+        android:showAsAction="always"
+        >
+        <menu >
+            <item 
+                android:id="@+id/absent"
+                android:title="请假"
+                android:icon="@drawable/absent"
+                />
+            <item
+                android:id="@+id/refresh"
+                android:title="刷新课程"
+                android:icon="@drawable/refresh"
+                 />
+        </menu>
+    </item>
+</menu>

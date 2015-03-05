@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    
+    <color name="blue">#3b95e8</color><!-- 蓝色 -->
+    <color name="lightblue">#7597b3</color><!-- 字体颜色 -->
+    <color name="white">#fff</color>
+    <color name="deep_white">#f7f4f4</color>
+    
+    <color name="light_orange">#ff8800</color> <!-- 设置、搜索界面的字体和divider颜色 -->
+    <color name="deep_grey">#505050</color><!-- 抽屉菜单选中的颜色|菜单的字体颜色 -->
+    <color name="light_grey">#d2d2d2</color><!-- 设置界面的子divider颜色 -->
+    
+
+	<color name="gray_3">#333333</color> <!-- 文字的灰色  -->
+	<color name="gray_7">#777777</color>
+	<color name="font_big">#333333</color> <!-- 大文字的灰色  -->
+	<color name="font_mid">#777777</color> <!-- 中文字的灰色  -->
+	
+	<color name="red">#ff0000</color> <!-- remind部分的文字提醒 -->
+	<color name="green">#3ae160</color><!-- 续借按钮的绿色 -->
+	
+	<!-- 书籍详情页面的颜色 -->
+	<color name="book_cover_bg">#dbdbdb</color>
+	<color name="book_detail_bg">#eeeeee</color>
+	
+
+	
+</resources>

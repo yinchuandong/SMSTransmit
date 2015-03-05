@@ -1,0 +1,51 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    
+    <style name="CustomTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBarTheme</item>
+        <item name="android:actionMenuTextAppearance">@style/MyActionBarMenu</item>
+        <item name="android:actionMenuTextColor">@color/blue</item>
+        <item name="android:homeAsUpIndicator">@drawable/back</item>
+        <item name="android:spinnerItemStyle">@style/MySpinnerItem</item>
+    </style>
+
+    <style name="MyActionBarTheme" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/white</item>
+        <item name="android:titleTextStyle">@style/MyActionBarTitle</item>
+    </style>
+    
+    <style name="MyActionBarTitle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">  
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blue</item>  
+    </style>
+    
+    <style name="MyActionBarMenu" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">  
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/blue</item> 
+    </style>
+    
+    <style name="MySpinnerItem" parent="@android:style/Widget.Holo.TextView.SpinnerItem">
+       <item name="android:textAppearance">@style/MyTextAppearance</item>
+    </style>
+    
+    <style name="MyTextAppearance" parent="@android:style/TextAppearance.Holo.Widget.TextView.SpinnerItem">  
+        <item name="android:textColor">@color/blue</item> 
+    </style>
+</resources>
